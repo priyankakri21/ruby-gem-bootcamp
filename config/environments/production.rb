@@ -90,7 +90,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Inserts middleware to perform automatic connection switching.
-  config.assets.js_compressor = Uglifier.new(harmony: true
+  #config.assets.js_compressor = Uglifier.new(harmony: true
   # The `database_selector` hash is used to pass options to the DatabaseSelector
   # middleware. The `delay` is used to determine how long to wait after a write
   # to send a subsequent read to the primary.
